@@ -12,3 +12,27 @@
     height: 45px;
     background-color: #C8A35F;
 }
+.downHeader{
+    width: 100%;
+    height: 100px;
+    background-color: #2F343A;
+}
+.ourOfficeText{
+    color: white;
+}
+.downHeaderLeft{
+    display: flex;
+    align-items: center;
+}
+.palka{
+    width: 1px;
+    height: 46px;
+    background-color: white;
+
+}
+.logo{
+    margin: 30px;
+}
+.ourOffice{
+    margin: 30px;
+}
