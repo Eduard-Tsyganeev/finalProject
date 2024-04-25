@@ -7,6 +7,12 @@
     justify-content: space-around;
     color: white;
 }
+.language{
+    width: 94px;
+    display: flex;
+    justify-content: space-between;
+    
+}
 .upHeader{
     width: 100%;
     height: 45px;
@@ -17,9 +23,6 @@
     height: 100px;
     background-color: #2F343A;
 }
-.ourOfficeText{
-    color: white;
-}
 .downHeaderLeft{
     display: flex;
     align-items: center;
@@ -28,11 +31,39 @@
     width: 1px;
     height: 46px;
     background-color: white;
-
 }
 .logo{
     margin: 30px;
+    display: flex;
 }
 .ourOffice{
     margin: 30px;
+    display: flex;
+}
+.ourOfficeText{
+    color: white;
+    margin-left: 10px;
+}
+.downHeaderContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 414px;
+}
+.downHeaderWrite{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    border: 0px;
+    background: transparent;
+    color: white;
+}
+button:hover{
+    color: rgb(227, 227, 227)
 }
