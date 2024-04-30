@@ -1,0 +1,72 @@
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+.upHeaderContent{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.language{
+    width: 94px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.upHeader{
+    width: 100%;
+    height: 45px;
+    background-color: #C8A35F;
+}
+.downHeader{
+    width: 100%;
+    height: 100px;
+    background-color: #2F343A;
+}
+.downHeaderLeft{
+    display: flex;
+    align-items: center;
+}
+.palka{
+    width: 1px;
+    height: 46px;
+    background-color: white;
+}
+.logo{
+    margin: 30px;
+    display: flex;
+}
+.ourOffice{
+    margin: 30px;
+    display: flex;
+}
+.ourOfficeText{
+    color: white;
+    margin-left: 10px;
+}
+.downHeaderContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 414px;
+}
+.downHeaderWrite{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    border: 0px;
+    background: transparent;
+    color: white;
+}
+button:hover{
+    color: rgb(227, 227, 227)
+}
+
+
+
