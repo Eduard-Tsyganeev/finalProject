@@ -58,3 +58,9 @@
     background-color: #C8A35F;
     color: white;
 }
+.truck{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+    
+}
