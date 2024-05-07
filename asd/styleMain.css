@@ -1,3 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: auto;
+    height: auto;
+    
+}
 .container{
     width: 1110px;
     margin: 0 auto;
@@ -32,6 +40,10 @@
     background: linear-gradient(90deg,rgba(57, 63, 71, 1) 36.3%, rgba(47, 52, 58, 1)36.3%, rgba(47, 52, 58, 1)63.7%, rgba(57, 63, 71, 1)63.7%,rgba(57, 63, 71, 1));
     padding-top: 120px;
 }
+.secondSectionContent{
+    display: flex;
+    justify-content: center;
+}
 .dalka{
     width: 90px;
     height: 6px;
@@ -58,9 +70,28 @@
     background-color: #C8A35F;
     color: white;
 }
-.truck{
+.secondSectionWright{
     display: flex;
-    justify-content: space-around;
-    margin-left: 30px;
-    
+    flex-direction: column;
+    justify-content: space-between;
+}
+.upNext{
+    display: flex;
+    justify-content: right;
+}
+.next{
+    color: #C8A35F;
+}
+.wright{
+    margin-left: 10px;
+}
+.downBack{
+    display: flex;
+    justify-content: right;
+}
+.back{
+    color: #C8A35F;
+}
+.left{
+    margin-right: 10px;
 }
