@@ -95,3 +95,24 @@ body{
 .left{
     margin-right: 10px;
 }
+.thirdSection{
+    background-color: #2F343A;
+}
+.thirdSectionContent{
+    display: flex;
+    flex-wrap: wrap;
+}
+.block{
+    width: 276px;
+    height: 180px;
+    background-color: #393F47;
+    border: 1px solid #2F343A;
+}
+.planeIMG{
+    display: block;
+    margin: auto;
+}
+.airTransportation{
+    color: white;
+    text-align: center;
+}
