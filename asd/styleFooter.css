@@ -1,11 +1,25 @@
 *{
     box-sizing: border-box;
 }
-
 footer{
     background-color: #C8A35F;
 }
 .footerContent{
     width: 100%;
     height: 161px;
+    padding-top: 60px;
+}
+.where{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.upWhere{
+    color: white;
+    
+}
+.downWhere{
+    display: flex;
+    
 }
