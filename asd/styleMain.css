@@ -101,18 +101,26 @@ body{
 .thirdSectionContent{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .block{
     width: 276px;
     height: 180px;
     background-color: #393F47;
     border: 1px solid #2F343A;
+    display: flex;
+    flex-direction: column;
+}
+.block:hover{
+    background-color: #C8A35F;
 }
 .planeIMG{
     display: block;
     margin: auto;
+
 }
 .airTransportation{
     color: white;
     text-align: center;
+
 }
