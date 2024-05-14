@@ -7,7 +7,7 @@
 }
 .upHeaderContent{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color: white;
 }
 .language{
@@ -29,6 +29,7 @@
 .downHeaderLeft{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .palka{
     width: 1px;
@@ -37,6 +38,7 @@
 }
 .headerLogo{
     margin: 30px;
+    margin-left: 0;
     display: flex;
 }
 .ourOffice{
@@ -50,17 +52,17 @@
 .downHeaderContent{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .menu{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color: white;
     width: 414px;
 }
 .downHeaderWright{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 button{
     border: 0px;
