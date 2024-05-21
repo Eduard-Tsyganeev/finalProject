@@ -17,6 +17,8 @@ body{
     height: 620px;
     padding-top: 155px;
     background: url('./img/rectangleTwo.png');
+    background-size: cover;
+    background-position: center;
 }
 .info{
     width: 920px;
@@ -28,6 +30,7 @@ body{
     font-size: 59px;
     color: white;
     text-align: center;
+    padding: 45px;
 }
 .transportation{
     padding-left: 140px;

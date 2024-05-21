@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     color: white;
+    padding: 16px;
 }
 .language{
     width: 94px;
