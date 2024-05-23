@@ -1,6 +1,3 @@
-*{
-    box-sizing: border-box;
-}
 body{
     width: auto;
     height: auto;
@@ -87,9 +84,12 @@ body{
 }
 .next{
     color: #C8A35F;
+    font-size: 20px;
+    vertical-align: top;
 }
 .wright{
-    margin-left: 10px;
+    float: left;
+    margin-right: 30px;
 }
 .downBack{
     display: flex;
@@ -97,9 +97,12 @@ body{
 }
 .back{
     color: #C8A35F;
+    font-size: 20px;
+    vertical-align: bottom;
 }
 .left{
-    margin-right: 10px;
+    float: left;
+    margin-right: 30px;
 }
 .thirdSection{
     background-color: #2F343A;
@@ -174,7 +177,7 @@ body{
 .imgBlock{
     width: 200px;
     height: 160px;
-    background-image: url("./img/rectangle.png");
+    background-image: url("./img/rectangleOne.png");
     border: 1px solid gray;
 }
 .number{
@@ -198,4 +201,6 @@ body{
 .fifthSection{
     height: 450px;
     background-image: url("./img/maps.png");
+    background-size: cover;
+    background-position: center;
 }
