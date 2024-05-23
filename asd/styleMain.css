@@ -73,6 +73,10 @@ body{
     background-color: #C8A35F;
     color: white;
 }
+.truck{
+    width: 445px;
+    height: 266px;
+}
 .secondSectionWright{
     display: flex;
     flex-direction: column;
