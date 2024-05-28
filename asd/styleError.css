@@ -1,0 +1,23 @@
+.error{
+    font-size: 80px;
+    height: 44%;
+    text-align: center;
+    color: white;
+    background-color: #2F343A;
+    padding-top: 333px;
+}
+.a{
+    font-size: 60px;
+    height: 56%;
+    text-align: center;
+    background-color: #393F47;
+}
+a:visited{
+    color: #C8A35F;
+}
+a{
+    color: #C8A35F;
+}
+a:hover{
+    color: rgb(227, 227, 227)
+}

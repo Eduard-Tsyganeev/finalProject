@@ -68,10 +68,16 @@ body{
     margin-bottom: 50px;
 }
 .detailed{
+    display: block;
+    line-height: 50px;
+    text-align: center;
     width: 220px;
     height: 50px;
     background-color: #C8A35F;
     color: white;
+}
+.detailed:hover{
+    color: rgb(227, 227, 227);
 }
 .truck{
     width: 445px;

@@ -11,12 +11,13 @@ let menu4 = document.getElementById('navItem4')
 let title = document.getElementById('freightTransportation')
 let subTitle = document.getElementById('transportation')
 // section2
+let section2 = document.getElementById('secondSection')
 let truck = document.getElementById('truck')
 let bigText = document.getElementById('bigText')
 let litText = document.getElementById('litText')
 let detailed = document.getElementById('detailed')
-let upNext = document.getElementById('upNext')
-let downBack = document.getElementById('downBack')
+let upNext = document.getElementById('next')
+let downBack = document.getElementById('back')
 // section3
 let services = document.getElementById('services')
 let airTransportation1 = document.getElementById('airTransportation1')
@@ -28,8 +29,9 @@ let airTransportation6 = document.getElementById('airTransportation6')
 let airTransportation7 = document.getElementById('airTransportation7')
 let airTransportation8 = document.getElementById('airTransportation8')
 // section4
+let section4 = document.getElementById('fourthSection')
 let aboutCompany = document.getElementById('aboutCompany')
-let textLorem = document.getElementById('text')
+let textLorem = document.getElementById('textLorem')
 let upText1 = document.getElementById('upText1')
 let upText2 = document.getElementById('upText2')
 let upText3 = document.getElementById('upText3')
@@ -38,6 +40,7 @@ let downText2 = document.getElementById('downText2')
 let downText3 = document.getElementById('downText3')
 let downText4 = document.getElementById('downText4')
 // footer
+let footer = document.getElementById('footer')
 let where = document.getElementById('upWhere')
 let developed = document.getElementById('developed')
 
@@ -129,3 +132,12 @@ function russian(){
 
 pyc.addEventListener('click', russian)
 eng.addEventListener('click', english)
+menu1.addEventListener('click', function (){
+    section2.scrollIntoView({block: 'center', inline: 'nearest', behavior: 'smooth'})
+})
+menu2.addEventListener('click', function (){
+    section4.scrollIntoView({block: 'center', inline: 'nearest', behavior: 'smooth'})
+})
+menu4.addEventListener('click', function (){
+    footer.scrollIntoView({block: 'center', inline: 'nearest', behavior: 'smooth'})
+})

@@ -58,6 +58,12 @@
     color: white;
     width: 414px;
 }
+.navItem:visited{
+    color: white;
+}
+.navItem:hover{
+    color: rgb(227, 227, 227)
+}
 .downHeaderWright{
     display: flex;
     justify-content: space-between;
