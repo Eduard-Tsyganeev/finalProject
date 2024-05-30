@@ -1,22 +1,69 @@
-.error{
-    font-size: 80px;
-    height: 44%;
-    text-align: center;
+.mainError{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    padding-top: 300px;
+}
+.blue{
+    width: 550px;
+    height: 30px;
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.fatalError{
+    font-size: 20px;
     color: white;
-    background-color: #2F343A;
-    padding-top: 333px;
+}
+.x{
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    color: white;
+    background-color: red;
+    border: 2px solid black;
+}
+.white{
+    width: 550px;
+    height: 133px;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.error{
+    font-size: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center; 
+}
+.error1{
+    font-size: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center; 
+    margin-left: auto;
+    margin-right: auto;
 }
 .a{
-    font-size: 60px;
-    height: 56%;
-    text-align: center;
-    background-color: #393F47;
+    width: 150px;
+    height: 30px;
+    font-size: 19px;
+    background-color: rgb(187, 187, 187);
+    padding: 8px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 a:visited{
-    color: #C8A35F;
+    color: black;
 }
 a{
-    color: #C8A35F;
+    color: black;
 }
 a:hover{
     color: rgb(227, 227, 227)

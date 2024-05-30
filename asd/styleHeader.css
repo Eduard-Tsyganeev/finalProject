@@ -55,8 +55,11 @@
 .menu{
     display: flex;
     justify-content: space-between;
-    color: white;
     width: 414px;
+}
+.navItem{
+    color: white;
+    font-size: 14px;
 }
 .navItem:visited{
     color: white;
